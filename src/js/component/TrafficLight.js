@@ -1,6 +1,6 @@
 import React from "react";
 
-export class TraficcLight extends React.Component {
+export class TrafficLight extends React.Component {
 	constructor() {
 		super();
 		//aqui van las propiedades del semaforo
@@ -15,11 +15,11 @@ export class TraficcLight extends React.Component {
 		let newYellowLightClass = "";
 		let newGreenLightClass = "";
 
-		if (this.state === "red") {
+		if (this.state.clicked === "red") {
 			newRedLightClass = "light-glow";
-		} else if (this.state === "yellow") {
+		} else if (this.state.clicked === "yellow") {
 			newYellowLightClass = "light-glow";
-		} else if (this.state === "green") {
+		} else if (this.state.clicked === "green") {
 			newGreenLightClass = "light-glow";
 		}
 
