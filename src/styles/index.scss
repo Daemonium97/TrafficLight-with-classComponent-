@@ -11,3 +11,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light-container{
+    background: #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.traffic-light-red, .traffic-light-yellow, .traffic-light-green{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.traffic-light-red{
+    background: red;
+}
+
+.traffic-light-yellow{
+    background: yellow;
+}
+
+.traffic-light-green{
+    background: green;
+}
+
+.light-glow{
+    box-shadow: #fff 0px 0px 40px 20px;
+}
